@@ -1,0 +1,107 @@
+{
+  "orgName": "orgAlias",
+  "edition": "Developer",
+  "features": [
+    "AuthorApex",
+    "API",
+    "Communities",
+    "ContactsToMultipleAccounts",
+    "DebugApex",
+    "DevelopmentWave",
+    "MarketingUser",
+    "MultiCurrency",
+    "PersonAccounts",
+    "PlatformEncryption",
+    "RecordTypes",
+    "ServiceCloud",
+    "StateAndCountryPicklist",
+    "Workflow",
+    "EnableSetPasswordInApi",
+    "BatchManagement",
+    "PersonAccounts",
+    "FieldAuditTrail",
+    "SalesCloudEinstein",
+    "DevOpsCenter",
+    "ForceComPlatform",
+    "CustomNotificationType",
+    "Chatbot",
+    "CaseClassification",
+    "SharedActivities",
+    "Knowledge",
+    "Sites",
+    "FlowSites",
+    "Functions",
+    "Entitlements",
+    "PipelineInspection"
+  ],
+  "settings": {
+      "orgPreferenceSettings": {
+        "s1DesktopEnabled": true,
+        "selfSetPasswordInApi": true,
+        "chatterEnabled": true,
+        "communitiesEnabled": true,
+        "enableSetPasswordInApi": true
+      },
+      "apexSettings": {
+        "enableApexAccessInBrowser": true
+      },
+      "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+      },
+      "chatterSettings": {
+        "enableChatter": true
+      },
+      "flowsSettings": {
+        "enableFlowUserDebugLog": true
+      },
+      "securitySettings": {
+        "passwordPolicies": {
+          "minimumPasswordLength": 8,
+          "enableRequireTLSForEmail": true
+        }
+      },
+      "sharingSettings": {
+        "enableExternalSharingModel": true
+      },
+      "emailSettings": {
+        "enableEmailToCase": true
+      },
+      "knowledgeSettings": {
+        "enableKnowledge": true
+      },
+      "opportunitySettings": {
+        "enableOpportunityTeam": true
+      },
+      "accountSettings": {
+        "enableAccountTeams": true
+      },
+      "contactsSettings": {
+        "enableRelateContactToMultipleAccounts": true
+      },
+      "mobileSettings": {
+        "enableS1EncryptedStoragePref2": false
+      },
+      "emailAdministrationSettings": {
+        "enableComplianceWithEmailPrivacy": true
+      },
+      "languageSettings": {
+        "enableTranslationWorkbench": true
+      },
+      "customSettings": {
+        "enableCustomSettings": true
+      },
+      "caseSettings": {
+        "emailToCase": true,
+        "enableCaseFeed": true
+      },
+      "serviceCloudSettings": {
+        "enableServiceCloud": true
+      },
+      "fieldServiceSettings": {
+        "enableFieldService": true
+      },
+      "dataCloudSettings": {
+        "enableDataCloud": true
+      }
+  }
+} 
