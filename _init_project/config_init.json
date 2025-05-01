@@ -1,0 +1,8 @@
+{
+  "orgAlias": "Alias da sua organizacao",
+  "scratchOrgAlias": "Alias da sua scratch org",
+  "defaultBranchGit": "B0001-v00-project-structure",
+  "manifestPath": "manifest/package.xml",
+  "scratchDefPath": "config/project-scratch-def.json",
+  "urlGitProject": "https://github.com/millena84/modelo-sf-projeto.git"
+}
