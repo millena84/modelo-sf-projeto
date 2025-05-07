@@ -1,0 +1,46 @@
+{
+    "infoOrg": {
+        "useSteps": "Preencha essa sessão sempre que for criar projetos locais relacionados a uma sandbox ou organização",
+        "alias": "orgIt-bc-dev-ed",
+        "description": "Org de desenvolvimento para estudos",
+        "devHub": false,
+        "default": true,
+        "urlLogin": "https://login.salesforce.com",
+        "username": "millena.reis@itau-bc-dev-ed.com",
+        "aliasProject": "projSandIt-bc-dev-ed",
+        "localProjectPath": "C:\\Users\\mille\\projetosSf\\model_project_sf_it-bc",
+        "manifestPath": "manifest/package.xml"
+    },
+    "infoDevHub": {
+        "useSteps": "Preencha essa sessão sempre que for criar projetos locais relacionados a uma organização com devHub",
+        "alias": "devHubXxxxxx",
+        "urlLogin": "https://login.salesforce.com",
+        "username": "millena.reis@itau-bc-dev-ed.com",
+        "aliasProject": "projsandit-bc-dev-ed",
+        "devHub": true,
+        "default": false,
+        "manifestPath": "manifest/package.xml"
+    },
+    "infoScratchOrg": {
+        "useSteps": "Preencha essa sessão sempre que for criar projetos locais relacionados a uma organização com Scratch Org",
+        "alias": "scratchOrgDevFtrXxxx",
+        "urlLogin": "https://login.salesforce.com",
+        "username": "millena.reis@itau-bc-dev-ed.com",
+        "description": "Descreva o que sera desenvolvido nessa scratch org",
+        "devHub": true,
+        "default": false,
+        "scratchDefPath": "config/project-scratch-def.json",
+        "manifestPath": "manifest/package.xml"
+    },
+    "infoGit": {
+        "projectGitModel": "endereçoProjetoCriacaoAmbienteSF",
+        "projectGitRepo": "endereçoRepoGit",
+        "projectGitBranch": "endereçoBranchGit",
+        "projectGitPath": "endereçoPathGit"
+    },
+    "infoRetrieve": {
+        "useSteps": "Preencha quando precisar fazer retrieve, seguindo as orientações; 1) definir o tipo de retrieve desejado [manifest = pega o package.xml do manifest];[metadata = pega manifest com os tipos/componentes definidos. não esqueça de colocar o caminho abaixo]",
+        "manifestPath": "manifest/package.xml",
+        "retrieveType": "manifest|metadata"
+    }
+}
